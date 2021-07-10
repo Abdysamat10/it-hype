@@ -585,10 +585,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit- 0.5s ease-in-out;
+  transition: -webkit- 0.5s ease-in-out;
   transition:  0.5s ease-in-out;
-  transition:  0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  transition:  0.5s ease-in-out, -webkit- 0.5s ease-in-out;
 }
 
 .wrapper .game .game__container .game__slider div {
@@ -623,10 +623,10 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit- 0.5s ease-in-out;
+  transition: -webkit- 0.5s ease-in-out;
   transition:  0.5s ease-in-out;
-  transition:  0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  transition:  0.5s ease-in-out, -webkit- 0.5s ease-in-out;
 }
 
 .wrapper .game .game__container .game__main_slide div {
