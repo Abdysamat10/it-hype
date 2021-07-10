@@ -47,8 +47,8 @@
     width: 100%;
     height: 2px;
     left: 0;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+/*     -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; */
   }
   .wrapper .header .header__body .header__burger:before {
     top: 0;
@@ -63,8 +63,8 @@
     width: 100%;
     height: 2px;
     top: 9px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+/*     -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; */
   }
   .wrapper .header .header__body .header__menu {
     position: fixed;
@@ -74,8 +74,8 @@
     height: 100%;
     background-color: #0f4979b6;
     padding: 25% 0px 0px 0px;
-    -webkit-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
+/*     -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s; */
     overflow: auto;
   }
   .wrapper .header .header__body .header__menu.active {
