@@ -197,8 +197,8 @@ body {
   background: #f9b217;
   -webkit-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .wrapper .header .header__body .header__menu .header__list li .header__link:hover::before {
