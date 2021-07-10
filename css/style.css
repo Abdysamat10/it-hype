@@ -731,7 +731,7 @@ body {
 }
 
 .wrapper .form {
-  background-image: url("/images/ITHYPE-SCHOOL2.png");
+  background-image: url("../images/ITHYPE-SCHOOL2.png");
   background-size: cover;
   background-position: center;
   margin-top: 40px;
