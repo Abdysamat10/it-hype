@@ -5,11 +5,14 @@
   .container {
     padding: 0px 20px 0px 20px;
   }
-  .wrapper .header:before {
-    content: "";
+  .wrapper .header {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .wrapper .header .header__body {
     height: 120px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .wrapper .header .header__body .header__logo {
     -webkit-box-flex: 0;
@@ -93,6 +96,8 @@
   }
   .wrapper .header .header__body .header__menu .header__list li .header__link:before {
     content: "";
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .wrapper .header .header__body .header__menu .header__list li .header__btn2 {
     display: block;
@@ -169,6 +174,12 @@
   .wrapper .game .game__text {
     padding-top: 70px;
     padding-bottom: 20px;
+  }
+  .wrapper .game .game__container .game__slider {
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
   .wrapper .house .house__text {
     padding-top: 70px;
@@ -260,6 +271,12 @@
   .wrapper .game .game__text {
     padding-top: 60px;
     padding-bottom: 20px;
+  }
+  .wrapper .game .game__container .game__slider {
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
   .wrapper .game .game__container .game__controls .game__btn {
     padding: 13px;
@@ -374,6 +391,12 @@
   .wrapper .game .game__text {
     padding-top: 50px;
     padding-bottom: 20px;
+  }
+  .wrapper .game .game__container .game__slider {
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
   .wrapper .game .game__container .game__controls .game__btn {
     padding: 11px;
@@ -497,6 +520,12 @@
     padding-top: 40px;
     padding-bottom: 10px;
   }
+  .wrapper .game .game__container .game__slider {
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  }
   .wrapper .game .game__container .game__controls .game__btn {
     padding: 9px;
   }
@@ -616,6 +645,12 @@
   .wrapper .game .game__text {
     padding-top: 30px;
     padding-bottom: 10px;
+  }
+  .wrapper .game .game__container .game__slider {
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
   .wrapper .game .game__container .game__controls .game__btn {
     padding: 7px;

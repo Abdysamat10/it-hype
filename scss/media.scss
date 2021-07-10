@@ -7,11 +7,10 @@
     }
     .wrapper {
         .header {
-            &:before {
-                content: "";
-            }
+            transition: 0.5s;
             .header__body {
                 height: 120px;
+                transition: 0.5s;
                 .header__logo {
                     flex: 0 0 110px;
                     img {
@@ -103,6 +102,7 @@
                                 }
                                 &:before {
                                     content: "";
+                                    transition: 0.5s;
                                 }
                                 &:hover:before {
                                 }
@@ -309,6 +309,7 @@
             }
             .game__container {
                 .game__slider {
+                    transition: transform 0.5s ease-in-out;
                     div {
                         .game__title {
                         }
@@ -631,6 +632,7 @@
             }
             .game__container {
                 .game__slider {
+                    transition: transform 0.5s ease-in-out;
                     div {
                         .game__title {
                         }
@@ -959,6 +961,7 @@
             }
             .game__container {
                 .game__slider {
+                    transition: transform 0.5s ease-in-out;
                     div {
                         .game__title {
                         }
@@ -1287,6 +1290,7 @@
             }
             .game__container {
                 .game__slider {
+                    transition: transform 0.5s ease-in-out;
                     div {
                         .game__title {
                         }
@@ -1616,6 +1620,7 @@
             }
             .game__container {
                 .game__slider {
+                    transition: transform 0.5s ease-in-out;
                     div {
                         .game__title {
                         }
