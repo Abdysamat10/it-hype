@@ -103,8 +103,8 @@
     background-color: #f9b217;
     border-radius: 10px;
     font-weight: 700;
-    -webkit-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+/*     -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; */
     border: 2px solid #fff;
   }
   .wrapper .header .header__body .header__menu .header__list li .header__btn2:hover {
