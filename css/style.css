@@ -197,8 +197,8 @@ body {
   background: #f9b217;
   -webkit-transform: scale(0);
           transform: scale(0);
-  -webkit-transition:  0.5s;
-  transition:  0.5s;
+  -webkit-transition: transform 0.5s;
+  transition: transform  0.5s;
 }
 
 .wrapper .header .header__body .header__menu .header__list li .header__link:hover::before {
@@ -587,8 +587,8 @@ body {
   left: 0;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  transition:  0.5s ease-in-out;
+  transition:  0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .wrapper .game .game__container .game__slider div {
@@ -625,8 +625,8 @@ body {
   width: 65%;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  transition:  0.5s ease-in-out;
+  transition:  0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .wrapper .game .game__container .game__main_slide div {
