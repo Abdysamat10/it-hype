@@ -1,7 +1,7 @@
 @import "nullstyle.scss";
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-$maxWidth: 1680;
+$maxWidth: 2240;
 @mixin adaptiv-font($pcSize, $mobSize) {
     $addSize: $pcSize - $mobSize;
     $maxWidth: $maxWidth - 320;
