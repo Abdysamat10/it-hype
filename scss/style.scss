@@ -465,20 +465,22 @@ body {
         overflow: hidden;
         position: relative;
         .wave__one {
-            background: url("images/wave_top.png") repeat-x;
+            background: url("../images/wave_top.png") repeat-x;
             width: 7000px;
             height: 218px;
             animation: wave 15s infinite linear;
             position: absolute;
             top: 0;
+            z-index: 1;
         }
         .wave__two {
-            background: url("images/wave_top_opacity.png") repeat-x;
+            background: url("../images/wave_top_opacity.png") repeat-x;
             width: 7000px;
             height: 218px;
             animation: wave 10s infinite linear;
             position: absolute;
             top: 0;
+            z-index: 0;
         }
         @keyframes wave {
             0% {
