@@ -574,7 +574,7 @@ body {
           animation: wave 15s infinite linear;
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 99;
 }
 
 .wrapper .wave .wave__two {
@@ -585,7 +585,6 @@ body {
           animation: wave 10s infinite linear;
   position: absolute;
   top: 0;
-  z-index: 0;
 }
 
 @-webkit-keyframes wave {
