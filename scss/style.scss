@@ -17,7 +17,7 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .container {
-    max-width: 1170px;
+    max-width: 1400px;
     padding: 0px 20px;
     margin: 0 auto;
 }
@@ -459,6 +459,36 @@ body {
             }
         }
     }
+    .wave {
+        width: 100%;
+        height: 218px;
+        overflow: hidden;
+        position: relative;
+        .wave__one {
+            background: url("/images/wave_top.png") repeat-x;
+            width: 7000px;
+            height: 218px;
+            animation: wave 15s infinite linear;
+            position: absolute;
+            top: 0;
+        }
+        .wave__two {
+            background: url("/images/wave_top_opacity.png") repeat-x;
+            width: 7000px;
+            height: 218px;
+            animation: wave 10s infinite linear;
+            position: absolute;
+            top: 0;
+        }
+        @keyframes wave {
+            0% {
+                margin-left: 0;
+            }
+            100% {
+                margin-left: -1938px;
+            }
+        }
+    }
     .game {
         padding-top: 50px;
         .game__text {
@@ -600,7 +630,7 @@ body {
         }
     }
     .form {
-        background-image: url("../images/ITHYPE-SCHOOL2.png");
+        background-image: url("/images/ITHYPE-SCHOOL2.png");
         background-size: cover;
         background-position: center;
         margin-top: 40px;
