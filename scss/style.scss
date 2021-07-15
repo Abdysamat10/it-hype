@@ -465,7 +465,7 @@ body {
         overflow: hidden;
         position: relative;
         .wave__one {
-            background: url("/images/wave_top.png") repeat-x;
+            background: url("images/wave_top.png") repeat-x;
             width: 7000px;
             height: 218px;
             animation: wave 15s infinite linear;
@@ -473,7 +473,7 @@ body {
             top: 0;
         }
         .wave__two {
-            background: url("/images/wave_top_opacity.png") repeat-x;
+            background: url("images/wave_top_opacity.png") repeat-x;
             width: 7000px;
             height: 218px;
             animation: wave 10s infinite linear;
@@ -630,7 +630,7 @@ body {
         }
     }
     .form {
-        background-image: url("/images/ITHYPE-SCHOOL2.png");
+        background-image: url("images/ITHYPE-SCHOOL2.png");
         background-size: cover;
         background-position: center;
         margin-top: 40px;
