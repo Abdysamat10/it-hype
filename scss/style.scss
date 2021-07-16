@@ -461,26 +461,28 @@ body {
     }
     .wave {
         width: 100%;
-        height: 218px;
+        height: 146px;
         overflow: hidden;
         position: relative;
+        margin-top: 70px;
         .wave__one {
-            background: url("../images/wave_top.png") repeat-x;
+            background: url("../images/wave__one.png");
+            background-repeat: repeat-x;
             width: 7000px;
-            height: 218px;
+            height: 146px;
             animation: wave 15s infinite linear;
             position: absolute;
             top: 0;
-            z-index: 1;
+            z-index: 99;
         }
         .wave__two {
-            background: url("../images/wave_top_opacity.png") repeat-x;
+            background: url("../images/wave__two.png");
+            background-repeat: repeat-x;
             width: 7000px;
-            height: 218px;
-            animation: wave 10s infinite linear;
+            height: 146px;
+            animation: wave 8s infinite linear;
             position: absolute;
             top: 0;
-            z-index: 0;
         }
         @keyframes wave {
             0% {
@@ -493,6 +495,7 @@ body {
     }
     .game {
         padding-top: 50px;
+        background-color: #0f4a79;
         .game__text {
             padding-top: 80px;
             padding-bottom: 20px;
@@ -632,7 +635,7 @@ body {
         }
     }
     .form {
-        background-image: url("images/ITHYPE-SCHOOL2.png");
+        background-image: url("../images/ITHYPE-SCHOOL2.png");
         background-size: cover;
         background-position: center;
         margin-top: 40px;
