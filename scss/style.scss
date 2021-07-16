@@ -81,7 +81,7 @@ body {
                         .header__link {
                             color: #fff;
                             text-transform: uppercase;
-                            font-size: 2.2em;
+                            @include adaptiv-font(22, 12);
                             position: relative;
                             outline: none;
 

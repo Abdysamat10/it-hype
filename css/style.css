@@ -183,7 +183,7 @@ body {
 .wrapper .header .header__body .header__menu .header__list li .header__link {
   color: #fff;
   text-transform: uppercase;
-  font-size: 2.2em;
+  font-size: calc(12px + 10 * ((100vw - 320px) / 1920));
   position: relative;
   outline: none;
 }
