@@ -665,6 +665,17 @@
 
             .game__container .controls .game__btn.up {
             }
+            .wave {
+                height: 98px;
+                .wave__one {
+                    background: url("../images/wave__one_ipad.png");
+                    height: 98px;
+                }
+                .wave__two {
+                    background: url("../images/wave__two_ipad.png");
+                    height: 98px;
+                }
+            }
         }
 
         .house {
@@ -993,6 +1004,17 @@
             }
 
             .game__container .controls .game__btn.up {
+            }
+            .wave {
+                height: 68px;
+                .wave__one {
+                    background: url("../images/wave__one_phone.png");
+                    height: 68px;
+                }
+                .wave__two {
+                    background: url("../images/wave__two_phone.png");
+                    height: 68px;
+                }
             }
         }
 

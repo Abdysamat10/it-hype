@@ -1160,6 +1160,17 @@ body {
   .wrapper .game .game__container .game__controls .game__btn {
     padding: 13px;
   }
+  .wrapper .game .wave {
+    height: 98px;
+  }
+  .wrapper .game .wave .wave__one {
+    background: url("../images/wave__one_ipad.png");
+    height: 98px;
+  }
+  .wrapper .game .wave .wave__two {
+    background: url("../images/wave__two_ipad.png");
+    height: 98px;
+  }
   .wrapper .house .house__text {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -1279,6 +1290,17 @@ body {
   }
   .wrapper .game .game__container .game__controls .game__btn {
     padding: 11px;
+  }
+  .wrapper .game .wave {
+    height: 68px;
+  }
+  .wrapper .game .wave .wave__one {
+    background: url("../images/wave__one_phone.png");
+    height: 68px;
+  }
+  .wrapper .game .wave .wave__two {
+    background: url("../images/wave__two_phone.png");
+    height: 68px;
   }
   .wrapper .house .house__text {
     padding-top: 50px;
