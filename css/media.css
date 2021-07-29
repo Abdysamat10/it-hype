@@ -178,7 +178,7 @@
   .wrapper .house .house__row .house__col_6 .house__item .house__body .house__dubai {
     height: 587px;
   }
-  .wrapper .form form button {
+  .wrapper .form .form__body button {
     padding: 14px 50px;
   }
   .wrapper .contact {
@@ -285,11 +285,11 @@
     padding-top: 140px;
     padding-bottom: 70px;
   }
-  .wrapper .form form label input {
+  .wrapper .form .form__body label input {
     display: block;
     width: 100%;
   }
-  .wrapper .form form button {
+  .wrapper .form .form__body button {
     display: block;
     width: 100%;
     margin: 0px 0px 0px 0px;
@@ -664,6 +664,9 @@
   .wrapper .form .form__text {
     padding-top: 80px;
     padding-bottom: 40px;
+  }
+  .wrapper .form .form__body label input {
+    width: 100%;
   }
   .wrapper .contact {
     padding-top: 50px;

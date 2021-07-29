@@ -559,58 +559,9 @@ body {
   padding-bottom: 30px;
 }
 
-.wrapper .wave {
-  width: 100%;
-  height: 146px;
-  overflow: hidden;
-  position: relative;
-  margin-top: 70px;
-}
-
-.wrapper .wave .wave__one {
-  background: url("../images/wave__one.png");
-  background-repeat: repeat-x;
-  width: 7000px;
-  height: 146px;
-  -webkit-animation: wave 15s infinite linear;
-          animation: wave 15s infinite linear;
-  position: absolute;
-  top: 0;
-  z-index: 99;
-}
-
-.wrapper .wave .wave__two {
-  background: url("../images/wave__two.png");
-  background-repeat: repeat-x;
-  width: 7000px;
-  height: 146px;
-  -webkit-animation: wave 8s infinite linear;
-          animation: wave 8s infinite linear;
-  position: absolute;
-  top: 0;
-}
-
-@-webkit-keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1938px;
-  }
-}
-
-@keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1938px;
-  }
-}
-
 .wrapper .game {
   padding-top: 50px;
-  background-color: #0f4a79;
+  position: relative;
 }
 
 .wrapper .game .game__text {
@@ -742,6 +693,55 @@ body {
   border-bottom-right-radius: 5px;
 }
 
+.wrapper .game .wave {
+  width: 100%;
+  height: 146px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.wrapper .game .wave .wave__one {
+  background: url("../images/wave__one.png");
+  background-repeat: repeat-x;
+  width: 7000px;
+  height: 146px;
+  -webkit-animation: wave 15s infinite linear;
+          animation: wave 15s infinite linear;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+
+.wrapper .game .wave .wave__two {
+  background: url("../images/wave__two.png");
+  background-repeat: repeat-x;
+  width: 7000px;
+  height: 146px;
+  -webkit-animation: wave 8s infinite linear;
+          animation: wave 8s infinite linear;
+  position: absolute;
+  top: 0;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1938px;
+  }
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1938px;
+  }
+}
+
 .wrapper .house {
   padding-top: 50px;
 }
@@ -794,20 +794,20 @@ body {
   color: #fff;
 }
 
-.wrapper .form form {
+.wrapper .form .form__body {
   text-align: start;
 }
 
-.wrapper .form form label {
+.wrapper .form .form__body label {
   width: 100%;
   padding: 0 5px;
 }
 
-.wrapper .form form label:first-child {
+.wrapper .form .form__body label:first-child {
   padding: 0 5px 0px 0;
 }
 
-.wrapper .form form label input {
+.wrapper .form .form__body label input {
   border-radius: 10px;
   border: 2px solid #0f4a79;
   font-size: calc(18px + 6 * ((100vw - 320px) / 1920));
@@ -816,7 +816,12 @@ body {
   width: 22%;
 }
 
-.wrapper .form form button {
+.wrapper .form .form__body label input._error {
+  -webkit-box-shadow: 0 0 15px red;
+          box-shadow: 0 0 15px red;
+}
+
+.wrapper .form .form__body button {
   font-size: calc(18px + 6 * ((100vw - 320px) / 1920));
   border-radius: 10px;
   border: 2px solid #fff;
@@ -829,7 +834,7 @@ body {
   transition: 0.5s;
 }
 
-.wrapper .form form button:hover {
+.wrapper .form .form__body button:hover {
   background-color: #fff;
   color: #0f4a79;
   border: 2px solid #0f4a79;
@@ -1068,7 +1073,7 @@ body {
   .wrapper .house .house__row .house__col_6 .house__item .house__body .house__dubai {
     height: 587px;
   }
-  .wrapper .form form button {
+  .wrapper .form .form__body button {
     padding: 14px 50px;
   }
   .wrapper .contact {
@@ -1175,11 +1180,11 @@ body {
     padding-top: 140px;
     padding-bottom: 70px;
   }
-  .wrapper .form form label input {
+  .wrapper .form .form__body label input {
     display: block;
     width: 100%;
   }
-  .wrapper .form form button {
+  .wrapper .form .form__body button {
     display: block;
     width: 100%;
     margin: 0px 0px 0px 0px;
@@ -1554,6 +1559,9 @@ body {
   .wrapper .form .form__text {
     padding-top: 80px;
     padding-bottom: 40px;
+  }
+  .wrapper .form .form__body label input {
+    width: 100%;
   }
   .wrapper .contact {
     padding-top: 50px;

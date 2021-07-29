@@ -370,7 +370,7 @@
         .form {
             .form__text {
             }
-            form {
+            .form__body {
                 label {
                     &:first-child {
                     }
@@ -698,7 +698,7 @@
                 padding-top: 140px;
                 padding-bottom: 70px;
             }
-            form {
+            .form__body {
                 label {
                     &:first-child {
                     }
@@ -1029,7 +1029,7 @@
                 padding-top: 120px;
                 padding-bottom: 60px;
             }
-            form {
+            .form__body {
                 label {
                     &:first-child {
                     }
@@ -1358,7 +1358,7 @@
                 padding-top: 100px;
                 padding-bottom: 50px;
             }
-            form {
+            .form__body {
                 label {
                     &:first-child {
                     }
@@ -1694,11 +1694,12 @@
                 padding-top: 80px;
                 padding-bottom: 40px;
             }
-            form {
+            .form__body {
                 label {
                     &:first-child {
                     }
                     input {
+                        width: 100%;
                     }
                 }
                 button {
