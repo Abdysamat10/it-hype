@@ -486,8 +486,8 @@
   }
   .wrapper .header.sticky {
     height: 80px;
-    border-top: .5px solid #0f4a79;
-    border-bottom: .5px solid #0f4a79;
+    border-top: 1px solid #0f4a79;
+    border-bottom: 1px solid #0f4a79;
   }
   .wrapper .header.sticky .header__body {
     margin-top: -12.5px;
