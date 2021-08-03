@@ -1009,11 +1009,13 @@
                 height: 68px;
                 .wave__one {
                     background: url("../images/wave__one_phone.png");
+                    width: 5000px;
                     height: 68px;
                     animation: wave 23s infinite linear;
                 }
                 .wave__two {
                     background: url("../images/wave__two_phone.png");
+                    width: 5000px;
                     height: 68px;
                     animation: wave 11s infinite linear;
                 }
@@ -1348,18 +1350,18 @@
             .game__container .controls .game__btn.up {
             }
             .wave {
-                height: 37px;
+                // height: 37px;
                 .wave__one {
-                    background: url("../images/wave__one_phone_2.png");
-                    width: 3000px;
-                    height: 37px;
-                    animation: wave 30s infinite linear;
+                    // background: url("../images/wave__one_phone.png");
+                    // width: 3000px;
+                    // height: 37px;
+                    // animation: wave 30s infinite linear;
                 }
                 .wave__two {
-                    background: url("../images/wave__two_phone_2.png");
-                    width: 3000px;
-                    height: 37px;
-                    animation: wave 15s infinite linear;
+                    // background: url("../images/wave__two_phone_2.png");
+                    // width: 3000px;
+                    // height: 37px;
+                    // animation: wave 15s infinite linear;
                 }
             }
         }

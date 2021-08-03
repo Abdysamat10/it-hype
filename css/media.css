@@ -401,12 +401,14 @@
   }
   .wrapper .game .wave .wave__one {
     background: url("../images/wave__one_phone.png");
+    width: 5000px;
     height: 68px;
     -webkit-animation: wave 23s infinite linear;
             animation: wave 23s infinite linear;
   }
   .wrapper .game .wave .wave__two {
     background: url("../images/wave__two_phone.png");
+    width: 5000px;
     height: 68px;
     -webkit-animation: wave 11s infinite linear;
             animation: wave 11s infinite linear;
@@ -538,23 +540,6 @@
   }
   .wrapper .game .game__container .game__controls .game__btn {
     padding: 9px;
-  }
-  .wrapper .game .wave {
-    height: 37px;
-  }
-  .wrapper .game .wave .wave__one {
-    background: url("../images/wave__one_phone_2.png");
-    width: 3000px;
-    height: 37px;
-    -webkit-animation: wave 30s infinite linear;
-            animation: wave 30s infinite linear;
-  }
-  .wrapper .game .wave .wave__two {
-    background: url("../images/wave__two_phone_2.png");
-    width: 3000px;
-    height: 37px;
-    -webkit-animation: wave 15s infinite linear;
-            animation: wave 15s infinite linear;
   }
   .wrapper .house .house__text {
     padding-top: 40px;
