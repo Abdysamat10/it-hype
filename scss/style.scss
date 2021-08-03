@@ -344,6 +344,7 @@ body {
                                 padding-top: 20px;
                             }
                             .learn__list {
+                                line-height: 1.3;
                                 padding: 25px 50px 50px 50px;
                                 .learn__link {
                                     @include adaptiv-font(25, 18);
@@ -387,6 +388,7 @@ body {
                                 padding-top: 20px;
                             }
                             .learn__list2 {
+                                line-height: 1.3;
                                 padding: 25px 50px 50px 50px;
                                 .learn__link2 {
                                     @include adaptiv-font(25, 18);
@@ -454,10 +456,41 @@ body {
             padding-bottom: 30px;
         }
         .home__carousel {
+            position: relative;
             .home__img {
                 // border: 5px solid #0f4a79;
             }
         }
+    }
+    #carousel .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        display: none;
+    }
+    #carousel .owl-theme .owl-dots .owl-dot span {
+        display: none;
+    }
+
+    #carousel .owl-prev,
+    .owl-next {
+        position: absolute;
+        transition: 0.5s;
+        width: 20px;
+        height: 20px;
+        border-bottom: 4px solid #000 !important;
+        border-left: 4px solid #000 !important;
+    }
+    #carousel .owl-prev {
+        position: absolute;
+        transform: rotate(45deg);
+        top: 104%;
+        left: 5%;
+    }
+
+    #carousel .owl-next {
+        position: absolute;
+        transform: rotate(-135deg);
+        top: 104%;
+        right: 5%;
     }
 
     .game {

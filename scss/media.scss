@@ -300,6 +300,21 @@
                 }
             }
         }
+        #carousel .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+        }
+        #carousel .owl-theme .owl-dots .owl-dot span {
+        }
+        #carousel .owl-prev,
+        .owl-next {
+            border-bottom: 3.5px solid #000 !important;
+            border-left: 3.5px solid #000 !important;
+        }
+        #carousel .owl-prev {
+        }
+
+        #carousel .owl-next {
+        }
         .game {
             .game__text {
                 padding-top: 70px;
@@ -568,11 +583,15 @@
                             }
                             .learn__anim {
                                 .learn__title {
+                                    padding-top: 20px;
                                 }
                                 .learn__subtitle {
+                                    padding-top: 15px;
                                 }
                                 .learn__list {
+                                    padding: 20px 45px 45px 45px;
                                     .learn__link {
+                                        padding: 20px 0px 0px 0px;
                                     }
                                 }
                             }
@@ -585,11 +604,15 @@
                             }
                             .learn__anim2 {
                                 .learn__title2 {
+                                    padding-top: 20px;
                                 }
                                 .learn__subtitle2 {
+                                    padding-top: 15px;
                                 }
                                 .learn__list2 {
+                                    padding: 20px 45px 45px 45px;
                                     .learn__link2 {
+                                        padding: 20px 0px 0px 0px;
                                     }
                                 }
                             }
@@ -625,6 +648,24 @@
                 }
             }
         }
+        #carousel .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+        }
+        #carousel .owl-theme .owl-dots .owl-dot span {
+        }
+        #carousel .owl-prev,
+        .owl-next {
+            width: 18px;
+            height: 18px;
+            border-bottom: 3px solid #000 !important;
+            border-left: 3px solid #000 !important;
+        }
+        #carousel .owl-prev {
+        }
+
+        #carousel .owl-next {
+        }
+
         .game {
             .game__text {
                 padding-top: 60px;
@@ -820,9 +861,10 @@
                 }
                 .hero__title {
                     margin-top: -67vh;
+                    -webkit-text-stroke: 0.5px #000;
                 }
                 .hero__subtitle {
-                    -webkit-text-stroke: 1px #000;
+                    -webkit-text-stroke: 0.5px #000;
                 }
                 .hero__btn {
                     padding: 13px 53px;
@@ -868,11 +910,13 @@
                         margin: 40px 0px 10px 0px;
                     }
                     .what__item {
+                        border: 4px solid #f9b217;
                         .what__body {
                             .what__icon {
                                 top: -60px;
                                 width: 120px;
                                 height: 120px;
+                                border: 2px solid #f9b217;
                                 .icon {
                                     font-size: 50px;
                                     position: relative;
@@ -910,11 +954,15 @@
                             }
                             .learn__anim {
                                 .learn__title {
+                                    padding-top: 15px;
                                 }
                                 .learn__subtitle {
+                                    padding-top: 10px;
                                 }
                                 .learn__list {
+                                    padding: 15px 40px 40px 40px;
                                     .learn__link {
+                                        padding: 15px 0px 0px 0px;
                                     }
                                 }
                             }
@@ -942,12 +990,16 @@
                             &:hover::before {
                             }
                             .learn__anim3 {
-                                .learn__title3 {
+                                .learn__title2 {
+                                    padding-top: 15px;
                                 }
-                                .learn__subtitle3 {
+                                .learn__subtitle2 {
+                                    padding-top: 10px;
                                 }
-                                .learn__list3 {
-                                    .learn__link3 {
+                                .learn__list2 {
+                                    padding: 15px 40px 40px 40px;
+                                    .learn__link2 {
+                                        padding: 15px 0px 0px 0px;
                                     }
                                 }
                             }
@@ -966,6 +1018,23 @@
                 .home__img {
                 }
             }
+        }
+        #carousel .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+        }
+        #carousel .owl-theme .owl-dots .owl-dot span {
+        }
+        #carousel .owl-prev,
+        .owl-next {
+            width: 16px;
+            height: 16px;
+            border-bottom: 2.5px solid #000 !important;
+            border-left: 2.5px solid #000 !important;
+        }
+        #carousel .owl-prev {
+        }
+
+        #carousel .owl-next {
         }
         .game {
             .game__text {
@@ -1147,8 +1216,8 @@
             }
             &.sticky {
                 height: 80px;
-                border-top: 0.5px solid #0f4a79;
-                border-bottom: 0.5px solid #0f4a79;
+                border-top: 1px solid #0f4a79;
+                border-bottom: 1px solid #0f4a79;
                 .header__body {
                     margin-top: -12.5px;
                 }
@@ -1170,7 +1239,6 @@
                     margin-top: -66vh;
                 }
                 .hero__subtitle {
-                    -webkit-text-stroke: 1px #000;
                 }
                 .hero__btn {
                     padding: 11px 40px;
@@ -1312,6 +1380,23 @@
                 .home__img {
                 }
             }
+        }
+        #carousel .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+        }
+        #carousel .owl-theme .owl-dots .owl-dot span {
+        }
+        #carousel .owl-prev,
+        .owl-next {
+            width: 14px;
+            height: 14px;
+            border-bottom: 2px solid #000 !important;
+            border-left: 2px solid #000 !important;
+        }
+        #carousel .owl-prev {
+        }
+
+        #carousel .owl-next {
         }
         .game {
             .game__text {
@@ -1515,7 +1600,6 @@
                     margin-top: -65vh;
                 }
                 .hero__subtitle {
-                    -webkit-text-stroke: 1px #000;
                 }
                 .hero__btn {
                     padding: 9px 37px;
@@ -1565,6 +1649,7 @@
                                 top: -50px;
                                 width: 100px;
                                 height: 100px;
+
                                 .icon {
                                     font-size: 40px;
                                     position: relative;

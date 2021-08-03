@@ -115,6 +115,8 @@ $(document).ready(function(){
         margin: 20,
         autoplay: true,
         autoplayTimeout: 3000,
+        nav: true,
+        navText: ['', ''],
         responsive:{
             0:{
                 items: 1

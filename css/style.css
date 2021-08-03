@@ -483,6 +483,7 @@ body {
 }
 
 .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__list {
+  line-height: 1.3;
   padding: 25px 50px 50px 50px;
 }
 
@@ -536,6 +537,7 @@ body {
 }
 
 .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body2 .learn__anim2 .learn__list2 {
+  line-height: 1.3;
   padding: 25px 50px 50px 50px;
 }
 
@@ -557,6 +559,46 @@ body {
   font-size: 2.4em;
   font-size: calc(16px + 8 * ((100vw - 320px) / 1920));
   padding-bottom: 30px;
+}
+
+.wrapper .home .home__carousel {
+  position: relative;
+}
+
+.wrapper #carousel .owl-theme .owl-dots .owl-dot.active span,
+.wrapper .owl-theme .owl-dots .owl-dot:hover span {
+  display: none;
+}
+
+.wrapper #carousel .owl-theme .owl-dots .owl-dot span {
+  display: none;
+}
+
+.wrapper #carousel .owl-prev,
+.wrapper .owl-next {
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 20px;
+  height: 20px;
+  border-bottom: 4px solid #000 !important;
+  border-left: 4px solid #000 !important;
+}
+
+.wrapper #carousel .owl-prev {
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 104%;
+  left: 5%;
+}
+
+.wrapper #carousel .owl-next {
+  position: absolute;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  top: 104%;
+  right: 5%;
 }
 
 .wrapper .game {
@@ -1050,6 +1092,11 @@ body {
   .wrapper .home .home__text {
     padding-top: 70px;
   }
+  .wrapper #carousel .owl-prev,
+  .wrapper .owl-next {
+    border-bottom: 3.5px solid #000 !important;
+    border-left: 3.5px solid #000 !important;
+  }
   .wrapper .game .game__text {
     padding-top: 70px;
     padding-bottom: 20px;
@@ -1143,11 +1190,42 @@ body {
   .wrapper .learn .learn__row .learn__col_4 {
     width: 50%;
   }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__title {
+    padding-top: 20px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__subtitle {
+    padding-top: 15px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__list {
+    padding: 20px 45px 45px 45px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__list .learn__link {
+    padding: 20px 0px 0px 0px;
+  }
   .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body2::before {
     content: "";
   }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body2 .learn__anim2 .learn__title2 {
+    padding-top: 20px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body2 .learn__anim2 .learn__subtitle2 {
+    padding-top: 15px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body2 .learn__anim2 .learn__list2 {
+    padding: 20px 45px 45px 45px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body2 .learn__anim2 .learn__list2 .learn__link2 {
+    padding: 20px 0px 0px 0px;
+  }
   .wrapper .home .home__text {
     padding-top: 60px;
+  }
+  .wrapper #carousel .owl-prev,
+  .wrapper .owl-next {
+    width: 18px;
+    height: 18px;
+    border-bottom: 3px solid #000 !important;
+    border-left: 3px solid #000 !important;
   }
   .wrapper .game .game__text {
     padding-top: 60px;
@@ -1238,9 +1316,10 @@ body {
   }
   .wrapper .hero .hero__body .hero__title {
     margin-top: -67vh;
+    -webkit-text-stroke: 0.5px #000;
   }
   .wrapper .hero .hero__body .hero__subtitle {
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 0.5px #000;
   }
   .wrapper .hero .hero__body .hero__btn {
     padding: 13px 53px;
@@ -1255,10 +1334,14 @@ body {
   .wrapper .what .what__row .what__col_4:last-child {
     margin: 40px 0px 10px 0px;
   }
+  .wrapper .what .what__row .what__col_4 .what__item {
+    border: 4px solid #f9b217;
+  }
   .wrapper .what .what__row .what__col_4 .what__item .what__body .what__icon {
     top: -60px;
     width: 120px;
     height: 120px;
+    border: 2px solid #f9b217;
   }
   .wrapper .what .what__row .what__col_4 .what__item .what__body .what__icon .icon {
     font-size: 50px;
@@ -1276,11 +1359,42 @@ body {
     width: 100%;
     margin-top: 20px;
   }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__title {
+    padding-top: 15px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__subtitle {
+    padding-top: 10px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__list {
+    padding: 15px 40px 40px 40px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body .learn__anim .learn__list .learn__link {
+    padding: 15px 0px 0px 0px;
+  }
   .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body2::before {
     content: "";
   }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body3 .learn__anim3 .learn__title2 {
+    padding-top: 15px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body3 .learn__anim3 .learn__subtitle2 {
+    padding-top: 10px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body3 .learn__anim3 .learn__list2 {
+    padding: 15px 40px 40px 40px;
+  }
+  .wrapper .learn .learn__row .learn__col_4 .learn__item .learn__body3 .learn__anim3 .learn__list2 .learn__link2 {
+    padding: 15px 0px 0px 0px;
+  }
   .wrapper .home .home__text {
     padding-top: 50px;
+  }
+  .wrapper #carousel .owl-prev,
+  .wrapper .owl-next {
+    width: 16px;
+    height: 16px;
+    border-bottom: 2.5px solid #000 !important;
+    border-left: 2.5px solid #000 !important;
   }
   .wrapper .game .game__text {
     padding-top: 50px;
@@ -1381,17 +1495,14 @@ body {
   }
   .wrapper .header.sticky {
     height: 80px;
-    border-top: 0.5px solid #0f4a79;
-    border-bottom: 0.5px solid #0f4a79;
+    border-top: 1px solid #0f4a79;
+    border-bottom: 1px solid #0f4a79;
   }
   .wrapper .header.sticky .header__body {
     margin-top: -12.5px;
   }
   .wrapper .hero .hero__body .hero__title {
     margin-top: -66vh;
-  }
-  .wrapper .hero .hero__body .hero__subtitle {
-    -webkit-text-stroke: 1px #000;
   }
   .wrapper .hero .hero__body .hero__btn {
     padding: 11px 40px;
@@ -1428,6 +1539,13 @@ body {
   .wrapper .home .home__text {
     padding-top: 40px;
     padding-bottom: 10px;
+  }
+  .wrapper #carousel .owl-prev,
+  .wrapper .owl-next {
+    width: 14px;
+    height: 14px;
+    border-bottom: 2px solid #000 !important;
+    border-left: 2px solid #000 !important;
   }
   .wrapper .game .game__text {
     padding-top: 40px;
@@ -1515,9 +1633,6 @@ body {
   }
   .wrapper .hero .hero__body .hero__title {
     margin-top: -65vh;
-  }
-  .wrapper .hero .hero__body .hero__subtitle {
-    -webkit-text-stroke: 1px #000;
   }
   .wrapper .hero .hero__body .hero__btn {
     padding: 9px 37px;
