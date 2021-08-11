@@ -215,8 +215,11 @@ body {
                 width: 58.33333%;
                 .about__item {
                     .about__image {
+                        background-color: #0f4a79;
                         img {
                             max-width: 100%;
+                            // background-color: #0f4a79;
+                            opacity: 0.45;
                         }
                     }
                 }
@@ -268,7 +271,7 @@ body {
                         .what__title {
                             @include adaptiv-font(32, 18);
                             margin-top: 100px;
-                            padding: 25px 30px 25px 30px;
+                            padding: 25px 25px 25px 25px;
                             height: 100%;
                             color: #fff;
                         }

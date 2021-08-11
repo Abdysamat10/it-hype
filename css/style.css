@@ -329,8 +329,13 @@ body {
   width: 58.33333%;
 }
 
+.wrapper .about .about__row .about__col_7 .about__item .about__image {
+  background-color: #0f4a79;
+}
+
 .wrapper .about .about__row .about__col_7 .about__item .about__image img {
   max-width: 100%;
+  opacity: 0.45;
 }
 
 .wrapper .what .what__text {
@@ -387,7 +392,7 @@ body {
 .wrapper .what .what__row .what__col_4 .what__item .what__body .what__title {
   font-size: calc(18px + 14 * ((100vw - 320px) / 1920));
   margin-top: 100px;
-  padding: 25px 30px 25px 30px;
+  padding: 25px 25px 25px 25px;
   height: 100%;
   color: #fff;
 }
